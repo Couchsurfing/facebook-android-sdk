@@ -1,0 +1,23 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 15
+
+    sourceSets {
+        main {
+            manifest.srcFile 'facebook/AndroidManifest.xml'
+            java.srcDirs = ['facebook/src']
+            resources.srcDirs = ['facebook/src']
+            aild.srcDirs = ['facebook/src']
+            renderscript.srcDirs = ['facebook/src']
+            res.srcDirs = ['facebook/res']
+            assets.srcDirs = ['facebook/assets']
+        }
+
+        instrumentTest.setRoot('facebook/test')
+    }
+}
+
+dependencies {
+	compile files('facebook/libs/android-support-v4-r12.jar')
+}
