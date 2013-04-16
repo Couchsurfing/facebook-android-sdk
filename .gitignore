@@ -16,8 +16,4 @@ facebook/tests/assets/config.json
 .idea/dictionaries/
 .idea/inspectionProfiles/
 build/
-libs/
-.project
-.classpath
-.settings/
 target/
