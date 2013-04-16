@@ -46,21 +46,6 @@
 					<skip>true</skip>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>default-cli</id>						
-						<configuration>
-							<outputDirectory>${basedir}/libs</outputDirectory>
-							<excludeScope>provided</excludeScope>
-							<includeTypes>jar</includeTypes>
-							<overWriteIfNewer>true</overWriteIfNewer>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 </project>
