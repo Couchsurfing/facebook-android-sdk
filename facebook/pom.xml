@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>com.facebook.android-facebook</groupId>
 		<artifactId>android-facebook-parent</artifactId>
-		<version>1.2.2</version>
+		<version>1.2.2-1</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -34,9 +34,6 @@
 				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 				<artifactId>android-maven-plugin</artifactId>
 				<extensions>true</extensions>
-				<configuration>
-					<nativeLibrariesDirectory>ignored</nativeLibrariesDirectory>
-				</configuration>
 			</plugin>
 
 			<plugin>
