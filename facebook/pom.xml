@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>com.facebook.android-facebook</groupId>
 		<artifactId>android-facebook-parent</artifactId>
-		<version>1.2.2-1</version>
+		<version>3.0.1</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
